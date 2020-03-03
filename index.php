@@ -13,24 +13,9 @@
         <div class = "container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light" style = "margin-bottom: 30px;">
                 <span class = "navbar-brand mb-0 h1">Yuri Kanegae</span>
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://github.com/YuriKanegae">GIT</a>
-                        </li>
-                        <li class="nav-item">
-                            <p class="nav-link">Prontuário: 1890794</p>
-                        </li>
-						<li class = "nav-item">
-							<a href = "https://arq.ifsp.edu.br/portal/" class = "nav-link">Campos Araraquara</a>
-						</li>
-                    </ul>
-                </div>
+                <a class="nav-link" href="https://github.com/YuriKanegae">GIT</a>
+                <p class="nav-link">Prontuário: 1890794</p>
+				<a href = "https://arq.ifsp.edu.br/portal/" class = "nav-link">Campos Araraquara</a>
             </nav>
 
             <table class = "table table striped">
@@ -41,6 +26,10 @@
                     </tr>
                 </thead>
                 <tbody>
+                    <tr>
+                        <td><a href = "20200303/index.php">Exemplos de javascript</a></td>
+                        <td>03/03/2020</td>
+                    </tr>
                 </tbody>
             </table>
         </div>
