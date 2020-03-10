@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Exemplo ONKEYUP</title>
+
+        <script>
+            function aciona_tecla(valor){
+                document.getElementById("msg").innerHTML = valor;
+            }
+        </script>
+    </head>
+    <body>
+        <div id = "msg"></div>
+
+        <form name = "f">
+            <input type = "text" name = "x" placeholder = "aciona ao sair da tecla"
+                onkeyup = "aciona_tecla(this.value)"/>
+            <input type = "text" name = "x" placeholder = "aciona ao precionar a tecla"
+                onkeydown = "aciona_tecla(this.value)"/>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Exemplo ONFOCUS</title>
+
+        <script>
+            function aciona_onfocus(valor){
+                document.getElementById("msg").innerHTML = valor;
+            }
+        </script>
+    </head>
+    <body>
+        <div id = "msg"></div>
+        <form>
+            <input type = "text" name = "x"
+                onfocus = "aciona_onfocus(this.value)"/>
+
+            <select name = "x" onfocus = "aciona_onfocus(this.value)">
+                <option value = "A">A</option>
+                <option value = "B">B</option>
+                <option value = "C">C</option>
+            </select>
+        </form>
+    </body>
+</html>

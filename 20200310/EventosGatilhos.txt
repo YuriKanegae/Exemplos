@@ -1,0 +1,18 @@
+Alguns eventos gatilhos para o javaScript:
+    ONCHANGE:
+        Dispara o código javaScript ao sofrer uma mudança.
+    ONCLICK:
+        Dispara o código javaScript ao ser clicado.
+    ONFOCUS:
+        Dispara o código javaScript quando o cursor está dentro do elemento.
+    ONBLUR:
+        Dispara o código javaScript quando o cursor está fora do elemento.
+    ONMOUSEOVER:
+        Dispara o código javaScript quando o cursor passa por dentro do elemento.
+    ONMOUSEOUT:
+        Dispara o código javaScript quando o cursor passa para fora do elemento.
+    ONKEYDOWN:
+        Dispara o código javaScript quando se preciona uma tecla;
+    ONKEYUP:
+        Dispara o código javaScript quando se solta uma tecla;
+    ONLOAD:

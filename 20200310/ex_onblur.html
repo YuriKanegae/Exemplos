@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Exemplo ONBLUR</title>
+
+        <script>
+            function aciona_onblur(valor){
+                document.getElementById("msg").innerHTML = valor;
+            }
+        </script>
+    </head>
+    <body>
+        <div id = "msd"></div>
+        <form>
+            <input type = "text" name = "x"
+                onblur = "aciona_onblur(this.value)"/>
+
+            <select name = "x" onblur = "aciona_onblur(this.value)">
+                <option value = "A">A</option>
+                <option value = "B">B</option>
+                <option value = "C">C</option>
+            </select>
+        </form>
+    </body>
+</html>
